@@ -9,8 +9,8 @@ const Projects = () => {
   const projects = [
     {
       title: 'Airbnb Clone',
-      description: 'A full-stack Airbnb clone with property listings, booking system, user authentication, and payment integration.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
+      description: 'A full-stack Airbnb clone with property CRUD Operations ,listings and user authentication.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Bootstrap CSS'],
       demoUrl: 'https://airbnb-jz4y.onrender.com/listings',
       githubUrl: 'https://github.com/GirishCPatil/Apna-College-Web/tree/main/Major-project',
       image: 'https://i.ibb.co/Q37CT63F/Screenshot-2025-04-30-011609.png'
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: 'Spotify Clone',
       description: 'Music streaming application with playlist creation, artist profiles, and song recommendations.',
-      tech: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
+      tech: ['HTML5', 'CSS3', 'javascript', 'localstorage'],
       demoUrl: 'https://github.com/GirishCPatil/spotify',
       githubUrl: 'https://github.com/GirishCPatil/spotify',
       image: 'https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png'
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: 'Task Manager',
       description: 'A feature-rich task management application with task categorization, priority levels, and deadline tracking.',
-      tech: ['React', 'Firebase', 'Tailwind CSS'],
+      tech: ['React', 'Javascript', 'Tailwind CSS'],
       demoUrl: '#',
       githubUrl: '#',
       image: 'https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png'
@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: 'Netflix Clone',
       description: 'Video streaming platform with content categorization, user profiles, and recommendation engine.',
-      tech: ['React', 'Firebase', 'TMDB API', 'CSS'],
+      tech: ['HTML5', 'CSS',  'Javascript'],
       demoUrl: 'https://girishcpatil.github.io/netflix/',
       githubUrl: 'https://github.com/GirishCPatil/netflix',
       image: 'https://i.ibb.co/DhCg0Rj/Screenshot-2025-04-30-005452.png'
