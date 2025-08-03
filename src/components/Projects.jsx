@@ -7,6 +7,22 @@ const Projects = () => {
   const isInView = useInView(ref, { once: true, threshold: 0.1 });
 
   const projects = [
+      {
+      title: 'GreenCart - E-commerce with Payment Gateway',
+      description: 'GreenCart is a grocery web app with cart, online payment via Stripe, and real-time order updates using webhooks. Built with Node.js, React, Express, and MongoDB.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Cloudinary', 'JWT', 'Tailwind CSS'],
+      demoUrl: 'https://green-cart-nu-eight.vercel.app/',
+      githubUrl: 'https://github.com/GirishCPatil/GreenCart-Ecommerce',
+      image: 'https://i.ibb.co/Cs6khjCB/Screenshot-2025-08-03-120641.png'
+    },
+      {
+      title: 'Streamify - Real-time Video Chat App',
+      description: 'Streamify is a real-time video chat app with friend requests, chat, and calling features using Stream API, TanStack Query, and protected user routes. Built with Node.js, React, Express, and MongoDB.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Stream API', 'JWT', 'Tailwind CSS'],
+      demoUrl: 'https://streamify-video-calls-master-1-x3a8.onrender.com/login',
+      githubUrl: 'https://github.com/GirishCPatil/streamify-video-calls-master',
+      image: 'https://i.ibb.co/v6zpzV6n/Screenshot-2025-08-03-123535.png'
+    },
     {
       title: 'Airbnb Clone',
       description: 'A full-stack Airbnb clone with property CRUD Operations ,listings and user authentication.',
@@ -38,7 +54,8 @@ const Projects = () => {
       demoUrl: 'https://girishcpatil.github.io/netflix/',
       githubUrl: 'https://github.com/GirishCPatil/netflix',
       image: 'https://i.ibb.co/DhCg0Rj/Screenshot-2025-04-30-005452.png'
-    }
+    },
+    
   ];
 
   const containerVariants = {
