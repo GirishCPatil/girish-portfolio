@@ -84,7 +84,7 @@ const About = () => {
           }} className="flex justify-center">
               <div className="relative">
                 <div className="w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-primary">
-                  <img src="https://media.licdn.com/dms/image/v2/D5603AQEGYALSDxP55A/profile-displayphoto-shrink_400_400/B56ZQXGtHiG4Ak-/0/1735554422135?e=1751500800&v=beta&t=oqm9UbGux07h1KscNRl65XFunmglh6mBKZ4BfFMx8-A" alt="Girishgouda Patil" className="w-full h-full object-cover" />
+                  <img src="https://drive.google.com/file/d/1XNR7HsUk0tNYRWp68FYZBWQJLqqljpm8/view?usp=sharing" alt="Girishgouda Patil" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-secondary flex items-center justify-center">
                   <span className="text-secondary-foreground font-bold text-lg">MERN Stack</span>
